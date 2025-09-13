@@ -4,6 +4,7 @@ import pandas as pd
 import altair as alt
 import yfinance as yf
 
+st.sidebar.markdown("[View Source Code](https://github.com/ibti2000/IPV_Projects_Fin)")
 
 st.title("Independent Price Verification Tool - BSM Option Pricer")
 
@@ -153,6 +154,7 @@ if uploaded_file: #to tell if there is a uploaded file then make it a variable d
     #encode utf-8 is general for conversion browser friendly
     #text/csv to tell its a csv file 
     #download_button - a st feature
+
 
 
 
